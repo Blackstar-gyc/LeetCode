@@ -8,7 +8,7 @@
 6. **git add . 添加文件**
 7. git rm -r xxx.txt  删除文件
 8. **git commit -m '注释' 提交添加的文件并备注说明**
-9. **git remote add origin git@github.com:jinzhaogit/git.git 连接远程仓库**
+9. **git remote add origin git@github.com:gyctl/LeetCode.git 连接远程仓库**
 10. **git push origin master 将本地仓库文件推送到远程仓库**
 11. **git pull origin master 将远程仓库文件更新到本地仓库**
 12. **git remote -v  查看远程仓库**
@@ -29,7 +29,7 @@
 ssh-keygen -t rsa -C "youremail@example.com"
 ```
 
-2.1、Github创建一个仓库和本地的Git仓库同步。GitHub仓库作为本地Git仓库备份
+2.1、Github创建一个仓库和本地的Git仓库同步。GitHub仓库作为本地Git仓库备份，与远程仓库建立链接
 
 ```
 $ git remote add origin 仓库地址
