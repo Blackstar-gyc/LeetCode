@@ -59,8 +59,21 @@
 + tail -f 动态显示末尾文件
 #### ln
 + ln -s [原文件] [目标文件]
+
 + ln 硬链接（相当于拷贝，i节点跟原文件相同，跟原文件同步更新）
+
 + ln -s 创建软链接   软链接类似于window的快捷方式
+#### umask
++ umask 查看默认目录创建权限
+
+#### man
++ man 命令或者配置文件 查看文件或者配置文件介绍
+#### whatis  
++ whatis 命令  查看命令简短信息
+#### apropos
++ apropos 配置文件  查看配置文件信息
+#### help
++ help 查看shell内置命令，此类命令通过whereis跟which无法找到
 
 ### 文件类型（-rw-r--r--）
 
