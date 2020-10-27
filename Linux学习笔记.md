@@ -74,8 +74,39 @@
 + apropos 配置文件  查看配置文件信息
 #### help
 + help 查看shell内置命令，此类命令通过whereis跟which无法找到
+#### useradd
++ useradd 管理员权限下增加用户
+#### 压缩命令
+文件格式       压缩命令        解压缩命令
++ .gz              gzip                 gunzip
++ .tar          tar  -cf                   -xf
++ .tar.gz      tar -zcf                -zxf
++ .zip           zip -r                  unzip
++ .bz2         bzip2                bunzip2
++ .tar.bz2   tar -cjf                  -xjf
+#### 网络命令
++ write
 
-### 文件类型（-rw-r--r--）
++ wall
+
++ ping
+
++ ifconfig
+
++ mail 
+
++ netstat
+      -tlun  查看本机监听的端口
+      -an  查看本机所有的网络连接
+      -rn  查看本机路由表
+  
++ mount
+  
+  mount    设备文件名(默认/dev/sr0)   挂载点(也就是自己建立的目录）
+  
+  umount  挂在点   卸载挂载点
+
+### 文件类型（-rwxrwxrwx）
 
 + -开头  代表是一个文件  
 
@@ -83,7 +114,7 @@
 
 + l开头   代表一个软链接
 
-rw-                r--                 r--  ：第一个r，第二个w，第三个x。-代表没有这个权限
+rwx                rwx              rwx  ：第一个r，第二个w，第三个x。-代表没有这个权限
 u                    g                   o
 u所有者     g所属组       o其他人 ：所有者有读写权限；所属组有读权限；其他人有读权限
 r读         w写        x执行
