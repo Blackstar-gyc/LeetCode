@@ -2,20 +2,20 @@
 
 1. **git init   新建一个空的仓库**
 2. **git status  查看状态**
-3. git branch 查看所有分支
-4. git branch newname 创建一个叫newname的分支
-5. git checkout newname 切换到叫newname的分支上
-6. **git add . 添加文件**
-7. git rm -r xxx.txt  删除文件
-8. **git commit -m '注释' 提交添加的文件并备注说明**
+3. `git branch` 查看所有分支
+4. `git branch newname` 创建一个叫newname的分支
+5. `git checkout newname` 切换到叫newname的分支上
+6. **`git add `. 添加文件**
+7. `git rm -r xxx.txt`  删除文件
+8. **`git commit -m`'注释' 提交添加的文件并备注说明**
 9. **git remote add origin git@github.com:gyctl/LeetCode.git 连接远程仓库**
 10. **git push origin master 将本地仓库文件推送到远程仓库**
 11. **git pull origin master 将远程仓库文件更新到本地仓库**
 12. **git remote -v  查看远程仓库**
-13. git fetch origin master:newname  本地新建一个newname分支，并将远程origin仓库的master分支代码下载到本地newname分支
+13. `git fetch origin master:newname ` 本地新建一个newname分支，并将远程origin仓库的master分支代码下载到本地newname分支
     git diff newname 比较本地代码与刚刚从远程下载下来的代码的区别
-14. git merge newname 把newname分支合并到当前分支上
-15. git branch -d newname  删除newname分支
+14. `git merge newname` 把newname分支合并到当前分支上
+15. `git branch -d newname ` 删除newname分支
 16. git log 查看变更日志
 17. **git reset --hard 版本号前六位 回归到指定版本**
 18. **git pull origin master 将master分支上的内容拉到本地上**
